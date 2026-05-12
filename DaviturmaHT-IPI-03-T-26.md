@@ -23,13 +23,14 @@ Uso: É essencial quando você tem uma tarefa cíclica, como:
 
 # Questão 05 
 
-Para (for): Usado quando você sabe exatamente quantas vezes o ciclo vai ocorrer. Ex: "Pinte 10 peças".
-Enquanto (while): Usado quando a repetição depende de uma condição, sem um número fixo de vezes. Ex: "Mantenha a ventilação ligada enquanto a fumaça for detectada".
+Para (for): Você sabe o fim. É pra tarefas com número fixo (ex: encher 10 garrafas).
+Enquanto (while): Você não sabe o fim. Depende de uma condição (ex: encher a garrafa até o sensor dizer que tá cheia).Para (for): Você sabe o fim. É pra tarefas com número fixo (ex: encher 10 garrafas).
+Enquanto (while): Você não sabe o fim. Depende de uma condição (ex: encher a garrafa até o sensor dizer que tá cheia).
 
 # Questão 06
 
-Ocorre quando a condição de parada de um laço nunca é atingida.
-Risco: Pode travar a interface de controle (HMI), impedir que outros processos críticos sejam executados ou causar o superaquecimento de componentes, resultando em paradas de linha não planejadas ou acidentes.
+É quando o código entra num "vórtex" e não para nunca porque a condição de saída nunca acontece.
+O risco: Trava o sistema, o operador perde o controle, o sensor para de ser lido e a máquina pode simplesmente bater ou explodir porque o software "esqueceu" de desligar o motor.
 
 # Questão 07
 
